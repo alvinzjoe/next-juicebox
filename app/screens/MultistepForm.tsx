@@ -63,7 +63,7 @@ export default function MultistepForm() {
         </div>
       )}
       {step == 3 && (
-        <div className="px-5 pb-6 absolute bottom-0 w-full max-w-2xl">
+        <div className="px-5 pb-6 fixed bottom-0 w-full max-w-2xl">
           <Button variant="white" onClick={() => router.push('/')} className="w-full">
               Continue
           </Button>

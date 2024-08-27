@@ -43,7 +43,7 @@ export default function Home() {
             <Header showBackButton={false} />
           </div>
           <div className="h-[100vh]"></div>
-          <div className="max-w-48 relative">
+          <div className="max-w-48  relative">
             <LottieAnimation2 />
           </div>
           <div className="fixed w-full top-1/2 -translate-y-1/2 px-5 -mt-10">

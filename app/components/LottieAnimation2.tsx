@@ -45,7 +45,7 @@ const LottieAnimation2 = () => {
   }, []);
 
   return (
-    <div ref={containerRef} className='fixed top-1/2 -translate-y-2/4 -mt-16 left-1/2 -translate-x-1/2 w-full max-w-xs -z-10 pointer-events-none'>
+    <div ref={containerRef} className='fixed top-1/2 -translate-y-2/4 -mt-16 left-1/2 -translate-x-1/2 w-56 -z-10 pointer-events-none'>
     </div>
   );
 };
