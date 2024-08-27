@@ -38,7 +38,7 @@ export default function Home() {
   });
   return (
       <SmoothScrolling>
-        <main className="flex min-h-screen flex-col items-center px-5 max-w-6xl mx-auto">
+        <main className="flex h-screen flex-col items-center px-5 max-w-6xl mx-auto">
           <div className="fixed w-full px-5">
             <Header showBackButton={false} />
           </div>
