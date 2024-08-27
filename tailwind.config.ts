@@ -8,6 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        bagoss: ['"BagossTRIALVF"', 'sans-serif'],
+        sohne: ['"Sohne-Buch"', 'sans-serif'],
+      },
+      colors: {
+        white60: "rgba(255,255,255,0.6)",
+      },
+      borderRadius: {
+        defaultRadius: "18px"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
