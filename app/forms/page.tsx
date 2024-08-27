@@ -15,7 +15,7 @@ export default function FormsPage() {
   });
   return (
       <>
-        <main className="flex min-h-screen flex-col items-center px-5 max-w-6xl mx-auto">
+        <main className="flex flex-col items-center px-5 max-w-6xl mx-auto max-h-[100dvh]">
           <div className="fixed w-full px-5">
             <Header showBackButton onBackClick={() => router.push('/walkthrough')}  />
           </div>
